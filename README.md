@@ -1,3 +1,3 @@
-PORTFOLIO LINK :
+# React + Vite
 
-                    https://yagnikportfolio.netlify.app/
+https://yagnikportfolio.netlify.app
