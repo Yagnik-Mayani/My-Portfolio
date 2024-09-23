@@ -1,0 +1,41 @@
+.Con{
+    position: relative;
+    font-size: 60px;
+    top: 300px;
+    padding: 2rem;
+    text-decoration: underline black;
+    color: black;
+}
+.icon{
+    position: relative;
+    font-size: 60px;
+    top: 340px;
+    padding: 2rem;
+    text-decoration: underline black;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.insta{
+    color: #E1306C;
+}
+.face{
+    color: #316FF6;
+}
+.github{
+    color: black;
+}
+.tele{
+    color: #24A1DE;
+}
+.linkdin{
+    color: #0072b1;
+}
+.mail{
+    color: chocolate;
+}
+@media (max-width:1050px){
+    .icon{
+        gap: 5rem;
+    }
+}

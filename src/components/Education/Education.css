@@ -1,0 +1,35 @@
+.edu{
+    position: relative;
+    font-size: 60px;
+    top: 250px;
+    padding: 2rem;
+    text-decoration: underline black;
+    color: black;
+}
+.Gu{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 300px;
+    margin-left: 5rem;
+}
+.h2{
+    position: relative;
+    color: black;
+    top: 220px;
+    left: 240px;
+}
+.h4{
+    position: relative;
+    color: black;
+    top: 230px;
+    left: 245px;
+}
+.college{
+    height: 100px;
+    width: 400px;
+    object-fit: contain;
+    position: relative;
+    left: 600px;
+    top: 150px;
+}

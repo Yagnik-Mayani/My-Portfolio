@@ -1,0 +1,113 @@
+.Mongo{
+    height: 100px;
+    width: 100px;
+}
+.Mongo:hover{
+    filter: drop-shadow(0 0 30px #009dc9);
+
+}
+.Express{
+    height: 100px;
+    width: 100px;
+}
+.Express:hover{
+    filter: drop-shadow(0 0 40px #009dc9);
+
+}
+.React{
+    height: 100px;
+    width: 100px;
+}
+.React:hover{
+    filter: drop-shadow(0 0 40px #009dc9);
+
+}
+.Node{
+    height: 100px;
+    width: 100px;
+}
+.Node:hover{
+    filter: drop-shadow(0 0 40px #009dc9);
+
+}
+.Html{
+    height: 100px;
+    width: 100px;
+}
+.Html:hover{
+    filter: drop-shadow(0 0 40px #009dc9);
+
+}
+.Css{
+    height: 100px;
+    width: 100px;   
+}
+.Css:hover{
+    filter: drop-shadow(0 0 40px #009dc9);
+
+}
+.Javascript{
+    height: 100px;
+    width: 100px;
+}
+.Javascript:hover{
+    filter: drop-shadow(0 0 40px #009dc9);
+
+}
+.Github{
+    height: 100px;
+    width: 100px;
+}
+.Github:hover{
+    filter: drop-shadow(0 0 30px #009dc9);
+
+}
+
+.Git{
+    height: 100px;
+    width: 100px;
+}
+.Git:hover{
+    filter: drop-shadow(0 0 40px #009dc9);
+
+}
+.Bootstrap{
+    height: 100px;
+    width: 100px;
+}
+.Bootstrap:hover{
+    filter: drop-shadow(0 0 40px #009dc9);
+
+}
+.h1{
+    position: relative;
+    font-size: 60px;
+    top: 70px;
+    padding: 2rem;
+    text-decoration: underline black;
+    color: black;
+}
+.img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 140px;
+}
+.img2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 160px;
+}
+@media(max-width:1050px){
+    .img{
+        gap: 5px;
+    }
+    .img2{
+        gap: 50px;
+    }
+}

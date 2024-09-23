@@ -1,0 +1,71 @@
+#intro{
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Bg{
+    position: absolute;
+    height: calc(100vh - 5rem);
+    top: 1rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    animation: animation 5s;
+}
+
+.introContent{
+height: 100vh;
+width: 100vw;
+padding: 2rem;
+font-size: 3rem;
+font-weight: 700;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.Hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: yellow
+}
+
+.intropara{
+    font-size: medium;
+    font-weight: 400;
+    margin-top: 0.60rem;
+}
+.hire{
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.btn{
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 7rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 0.75rem;
+    margin-top: 0.80rem;
+}
+
+@keyframes animation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
